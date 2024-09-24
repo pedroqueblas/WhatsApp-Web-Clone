@@ -35,7 +35,6 @@ ul {
   background-color: #eee;
   display: flex;
   align-items: center;
-  justify-content: space-between; 
 }
 
 .user-photo {
@@ -48,7 +47,8 @@ ul {
 .auxicons-toolbar-container {
   display: flex;
   align-items: center;
-  padding-right: 20px;
+  position: absolute;
+  right: 5px;
 }
 
 .auxicons-toolbar-container i {
@@ -145,6 +145,11 @@ ul {
   border-top: 1px solid #f2f2f2;
   position: relative;
   box-sizing: border-box;
+}
+
+.contact-box .user-photo{
+  position: absolute;
+  top: 10px;
 }
 
 .contact-box:last-child {
